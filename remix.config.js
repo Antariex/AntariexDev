@@ -5,4 +5,19 @@ export default {
   // assetsBuildDirectory: "public/build",
   // publicPath: "/build/",
   // serverBuildPath: "build/index.js",
+  rules: [
+    {
+      test: /\.css$/,
+      use: [
+        {
+          loader: 'css-loader',
+          options: {
+            importLoaders: 1,
+            modules: true,
+          },
+        },
+        'postcss-loader',
+      ],
+    },
+  ],
 };

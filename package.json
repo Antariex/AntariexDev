@@ -23,7 +23,9 @@
     "@remix-run/eslint-config": "^2.3.1",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
+    "css-loader": "^6.8.1",
     "eslint": "^8.38.0",
+    "postcss-loader": "^7.3.3",
     "typescript": "^5.1.6"
   },
   "engines": {
