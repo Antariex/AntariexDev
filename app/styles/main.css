@@ -1,92 +1,141 @@
-    body {
-        font-family: "Poppins", Helvetica, sans-serif;
-        line-height: 1.75em;
-        background-color: #222222;
-        color: #fff;
-    }
+/*Universal Styles*/
+body {
+    margin: 0;
+    font-family: "Poppins", Helvetica, sans-serif;
+    line-height: 1.75em;
+    background-color: #222222;
+    color: #fff;
+}
 
-    .indexHero {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 90%;
-        margin: 0 auto;
-    }
 
-    h1 {
-        color: #fff;
-        font-size: 36px;
-        font-weight: 600;
-        font-style: normal;
-    }
+/*Navbar Styles*/
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    margin: 0 auto;
+}
 
-    .button {
-        width: 156px;
-        height: 44px;
-        cursor: pointer;
-        border-color: #007ced;
-        font-family: "Poppins", Helvetica, sans-serif;
-        color: #fff !important;
-        background-color: #333;
-        box-shadow: 0 12px 12px -8px rgba(0,0,0,.78);
-        display: inline-block;
-        position: relative;
-        padding: 0.8em 2.1em;
-        margin-bottom: 0.75em;
-        margin-right: 0.55em;
-        font-size: 0.9em !important;
-        line-height: 1.2 !important;
-        outline: 0;
-        border: 2px solid #7066ff;
-        text-shadow: none;
-        border-radius: 32px;
-        transition: all .3s ease-in-out;
-        font-weight: 600 !important;
-        text-align: center;
-        white-space: nowrap;
-        vertical-align: middle;
-        user-select: none;
-    }
+.menu {
+    display: flex;
+    justify-content:center;
+    list-style: none;
+    padding: 12px;
+    margin: 0;
+}
 
-    .buttonWhite {
-        border: 2px solid #fff !important;
-    }
+.menu li a {
+    font-weight: 600;
+    margin: 12px;
+    padding: 8px;
+    text-decoration: none !important;
+    color: #aaa;
+    transition: all 0.3s ease-in-out;
+}
 
-    .buttonBlue:hover {
-        background-color: #7066ff !important;
-        color: #fff !important;
-    }
+.menu li a:hover {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
 
-    .buttonWhite:hover {
-        background-color: #fff !important;
-        color: #333 !important;
-    }
+.logo {
+    width: 28px;
+    height: 28px;
+    padding: 4px;
+    margin-left: 12px;
+    border: #007CED 1px solid;
+    border-radius: 20%;
+}
 
-    a {
-        color: #007CED;
-    }
 
-    .title {
-        color: #aaa;
-        font-size: 16px;
-        font-weight: 600;
-        font-style: normal;
-        margin: 1.33em 0;
-        line-height: 1.2;
-    }
+/*Home Styles*/
+.indexHero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
 
-    p {
-        color: #fff;
-        font-size: 16px;
-        font-weight: 600;
-        line-height: 26px;
-        font-style: normal;
-     }
+h1 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: normal;
+}
 
-    .me {
-        max-width: 300px;
-        border-radius: 50%;
-        border: 12px solid #7066ff;
-        margin: 4rem;
-        /*filter: grayscale(100%);*/
-    }
+.moto {
+    font-style: italic;
+}
+
+.button {
+    width: 156px;
+    height: 44px;
+    cursor: pointer;
+    border-color: #007ced;
+    font-family: "Poppins", Helvetica, sans-serif;
+    color: #fff !important;
+    background-color: #333;
+    box-shadow: 0 12px 12px -8px rgba(0, 0, 0, .78);
+    display: inline-block;
+    position: relative;
+    padding: 0.8em 2.1em;
+    margin-bottom: 0.75em;
+    margin-right: 0.60em;
+    font-size: 0.9em !important;
+    line-height: 1.2 !important;
+    outline: 0;
+    border: 2px solid #7066ff;
+    text-shadow: none;
+    border-radius: 32px;
+    transition: all .3s ease-in-out;
+    font-weight: 600 !important;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+}
+
+.buttonWhite {
+    border: 2px solid #fff !important;
+}
+
+.buttonBlue:hover {
+    background-color: #7066ff !important;
+    color: #fff !important;
+}
+
+.buttonWhite:hover {
+    background-color: #fff !important;
+    color: #333 !important;
+}
+
+a {
+    color: #007CED;
+}
+
+.title {
+    color: #aaa;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    margin: 1.33em 0;
+    line-height: 1.2;
+}
+
+p {
+    color: #aaa;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    font-style: normal;
+}
+
+.me {
+    max-width: 290px;
+    border-radius: 50%;
+    border: 8px solid #7066ff;
+    margin: 4rem;
+    /*filter: grayscale(100%);*/
+}
