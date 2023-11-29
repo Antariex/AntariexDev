@@ -9,6 +9,7 @@ export const meta: MetaFunction = () => {
 };
 
 import Navbar from '../components/navbar';
+import Footer from '../components/footer';
 
 export default function Index() {
   return (
@@ -24,11 +25,14 @@ export default function Index() {
           <h1>Ariel Antequiera</h1>
           <p>Hello! This website reflects my enthusiasm to grow as a professional in the software industry.
             <br />
+            <br />
             I have specialized in mobile and web development.</p>
+          <br />
           <br />
           <p className="moto">
             Coding with 🤎 from Buenos Aires.
           </p>
+          <br />
           <br />
           <a
             target="_blank"
@@ -44,7 +48,7 @@ export default function Index() {
           </a>
         </div>
       </div>
-
+      <Footer />
     </div>
 
   );
