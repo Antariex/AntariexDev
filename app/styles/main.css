@@ -5,6 +5,14 @@
         color: #fff;
     }
 
+    .indexHero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
     h1 {
         color: #fff;
         font-size: 36px;
@@ -65,4 +73,20 @@
         font-style: normal;
         margin: 1.33em 0;
         line-height: 1.2;
+    }
+
+    p {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+        font-style: normal;
+     }
+
+    .me {
+        max-width: 300px;
+        border-radius: 50%;
+        border: 12px solid #7066ff;
+        margin: 4rem;
+        /*filter: grayscale(100%);*/
     }
