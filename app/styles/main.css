@@ -121,7 +121,7 @@ h1 {
 }
 
 .buttonRed {
-    border: 2px solid #D50032 !important;
+    border: 0 !important;
     background-color: #D50032;
     color: #fff !important;
     position: relative;
@@ -137,6 +137,8 @@ h1 {
     line-height: 1.2;
     font-size: 1rem;
     box-shadow: none !important;
+    border-radius: 0.125rem;
+    padding: 0.25rem 1rem;
 }
 
 .buttonRed:hover {
