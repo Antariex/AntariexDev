@@ -186,9 +186,7 @@ p {
     padding-bottom: 0 !important;
     margin: 0;
     width: 100%;
-    height: 95vh;
 }
-
 .whatIDoTitle {
     display: inline-block;
     position: relative;
@@ -209,17 +207,17 @@ p {
 }
 
 .accordion {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     color: #222;
     background-color: white;
     padding: 25px 25px;
+    position: relative;
   }
   
   .accordion .container {
     position: relative;
     margin: 10px 10px;
-    
     margin: 0 auto;
     align-items: center;
   }
@@ -289,7 +287,7 @@ p {
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    position:static;
+    position:relative;
     bottom: 0;
     width: 100%;
     border-top: 3px solid gold;
