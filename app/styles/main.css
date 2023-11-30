@@ -25,7 +25,7 @@ body {
 
 .menu {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     list-style: none;
     padding: 12px;
     margin: 0;
@@ -180,8 +180,8 @@ p {
 .whatIDo {
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
-    align-items:center;
+    justify-content: space-between;
+    align-items: center;
     background-color: #fff;
     color: #222 !important;
     padding: 4px;
@@ -189,6 +189,7 @@ p {
     margin: 0;
     width: 100%;
 }
+
 .whatIDoTitle {
     display: inline-block;
     position: relative;
@@ -204,8 +205,8 @@ p {
     background-repeat: no-repeat;
 }
 
-.whatIDo p, .whatIDo h4{
-    line-height: 2.1em !important;	
+.whatIDo p {
+    line-height: 2.1em !important;
 }
 
 .accordion {
@@ -215,25 +216,25 @@ p {
     background-color: white;
     padding: 25px 25px;
     position: relative;
-  }
-  
-  .accordion .container {
+}
+
+.accordion .container {
     position: relative;
     margin: 10px 10px;
     margin: 0 auto;
     align-items: center;
-  }
-  
-  .accordion .label {
+}
+
+.accordion .label {
     position: relative;
     padding: 24px 16px 24px 0px;
     font-size: 1rem;
     font-weight: 600;
     color: #3A3D40;
     cursor: pointer;
-  }
-  
-  .accordion .label::before {
+}
+
+.accordion .label::before {
     content: '+';
     color: #D50032;
     position: absolute;
@@ -243,13 +244,13 @@ p {
     line-height: 1.2;
     transform: translateY(-50%);
     font-weight: 550;
-  }
+}
 
-  .accordion .label:hover {
+.accordion .label:hover {
     color: #D50032;
-  }
-  
-  .accordion .content {
+}
+
+.accordion .content {
     position: relative;
     background: white;
     height: 0;
@@ -262,13 +263,13 @@ p {
     transition: 0.5s;
     color: rgb(58, 61, 64);
     border-bottom: 1px solid gray;
-  }
-  
-  .accordion .container.active .content {
+}
+
+.accordion .container.active .content {
     height: 192px;
-  }
-  
-  .accordion .container.active .label::before {
+}
+
+.accordion .container.active .label::before {
     content: '-';
     color: #D50032;
     position: absolute;
@@ -277,7 +278,7 @@ p {
     font-size: 1.3rem;
     line-height: 1.2;
     font-weight: 550;
-  }
+}
 
 
 /*Footer Styles*/
@@ -289,7 +290,7 @@ p {
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    position:relative;
+    position: relative;
     bottom: 0;
     width: 100%;
     border-top: 3px solid gold;
@@ -297,7 +298,7 @@ p {
 
 .menuFooter {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     list-style: none;
     padding: 12px;
     margin: 0;

@@ -52,11 +52,11 @@ function WhatIDo() {
                 </div>
             </div>
             <a
-            target="_blank"
-            href="https://drive.google.com/file/d/1qYz9bXUvLhkQV86eknXdOezdswUxxrxC/view?usp=sharing"
-            rel="noreferrer">
-            <button className="button buttonRed">MY PROJECTS</button>
-          </a>
+                target="_blank"
+                href="https://drive.google.com/file/d/1qYz9bXUvLhkQV86eknXdOezdswUxxrxC/view?usp=sharing"
+                rel="noreferrer">
+                <button className="button buttonRed">MY PROJECTS</button>
+            </a>
         </div>
     );
 }
