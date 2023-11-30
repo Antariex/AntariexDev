@@ -29,16 +29,12 @@ function WhatIDo() {
                         </div>
                     </div>
 
-                    <br />
-
                     <div className="container question-container">
                         <div className="label">Back-End Development</div>
                         <div className="content">
                             On the back-end front, I've expanded my technological toolkit with languages such as Java, JavaScript, and Python, enabling the creation of robust and scalable systems. Managing server-side logic using Node.js and ensuring effective data management through MySQL databases, I bring a holistic approach to web development. My proficiency in Linux environments enhances my ability to implement and manage developments with efficiency.
                         </div>
                     </div>
-
-                    <br />
 
                     <div className="container question-container">
                         <div className="label">Mobile App Development</div>

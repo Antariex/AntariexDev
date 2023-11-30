@@ -236,11 +236,11 @@ p {
     color: #D50032;
     position: absolute;
     top: 50%;
-    right: -5px;
-    font-size: 1rem;
+    right: 28px;
+    font-size: 1.3rem;
     line-height: 1.2;
     transform: translateY(-50%);
-    font-weight: 600;
+    font-weight: 550;
   }
 
   .accordion .label:hover {
@@ -271,10 +271,10 @@ p {
     color: #D50032;
     position: absolute;
     top: 50%;
-    right: -5px;
-    font-size: 1rem;
+    right: 28px;
+    font-size: 1.3rem;
     line-height: 1.2;
-    font-weight: 600;
+    font-weight: 550;
   }
 
 
