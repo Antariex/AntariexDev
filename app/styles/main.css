@@ -149,27 +149,44 @@ p {
     /*filter: grayscale(100%);*/
 }
 
-.socialMedia{
- display: flex;
- flex-direction: column;
- width: 30px;
- height: 30px;
- padding: 8px;
- position: absolute;
- bottom: 254px;
- right: 8px;
-}
 
-.socialMedia p {
-    transform: rotate(90deg);
-}
-
-.socialMedia img {
-    background-color: #222;
-    color: #fff;
+/*What I Do Secction Styles*/
+.whatIDo {
+    display: flex;
+    flex: 1;
+    justify-content:space-between;
+    align-items:flex-start;
+    background-color: #fff;
+    color: #222 !important;
     padding: 4px;
+    padding-bottom: 0 !important;
+    margin: 0;
 }
 
+.whatIDo p, .whatIDo h4{
+    line-height: 2.1em !important;	
+}
+
+.column1, .column2 {
+    flex: 1;
+    padding: 20px;
+    margin-bottom: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-align: justify;
+    border: 0;
+  }
+
+  .column1 {
+    border-left: 1px solid #222;
+    }
+
+  .column2 {
+    border-left: 1px solid #222;
+    border-right: 1px solid #222;
+  }
+
+/*Footer Styles*/
 .footer {
     display: flex;
     align-items: center;
@@ -178,9 +195,10 @@ p {
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    position: fixed;
+    position:static;
     bottom: 0;
     width: 100%;
+    border-top: 3px solid gold;
 }
 
 .menuFooter {
@@ -196,7 +214,7 @@ p {
     margin: 12px;
     padding: 8px;
     text-decoration: none !important;
-    color: #aaa;
+    color: #fff;
 }
 
 .menuFooter li a:hover {

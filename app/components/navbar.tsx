@@ -1,4 +1,3 @@
-// src/components/Navbar.js
 function Navbar() {
     return (
         <nav className="navbar">

@@ -9,6 +9,7 @@ export const meta: MetaFunction = () => {
 };
 
 import Navbar from '../components/navbar';
+import WhatIDo from "../components/whatIDo";
 import Footer from '../components/footer';
 
 export default function Index() {
@@ -48,6 +49,7 @@ export default function Index() {
           </a>
         </div>
       </div>
+      <WhatIDo/>
       <Footer />
     </div>
 
