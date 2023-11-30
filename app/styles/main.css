@@ -202,7 +202,6 @@ p {
     background-size: 100% 3px;
     background-position: 0 100%;
     background-repeat: no-repeat;
-    display: inline-block;
 }
 
 .whatIDo p, .whatIDo h4{
