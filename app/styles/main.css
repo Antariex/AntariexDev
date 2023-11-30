@@ -37,12 +37,12 @@ body {
     padding: 8px;
     text-decoration: none !important;
     color: #aaa;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in;
 }
 
 .menu li a:hover {
     color: #fff;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #7066ff;
 }
 
 .logo {
@@ -63,7 +63,7 @@ body {
     width: 90%;
     margin: 0 auto;
     padding: 16px;
-    height: auto !important;
+    height: 95vh;
 }
 
 h1 {
@@ -120,6 +120,30 @@ h1 {
     color: #333 !important;
 }
 
+.buttonRed {
+    border: 2px solid #D50032 !important;
+    background-color: #D50032;
+    color: #fff !important;
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    transition: background-color 0.3s ease 0s;
+    min-height: 40px;
+    width: max-content;
+    max-width: 288px;
+    border-radius: 0.125rem !important;
+    font-weight: 400;
+    padding: 0.25rem 1rem;
+    line-height: 1.2;
+    font-size: 1rem;
+    box-shadow: none !important;
+}
+
+.buttonRed:hover {
+    background-color: #D50000 !important;
+    color: #fff !important;
+}
+
 a {
     color: #007CED;
 }
@@ -142,7 +166,7 @@ p {
 }
 
 .me {
-    max-width: 300px;
+    max-width: 336px;
     border-radius: 50%;
     border: 8px solid #7066ff;
     margin: 4rem;
@@ -153,38 +177,109 @@ p {
 /*What I Do Secction Styles*/
 .whatIDo {
     display: flex;
-    flex: 1;
+    flex-direction: column;
     justify-content:space-between;
-    align-items:flex-start;
+    align-items:center;
     background-color: #fff;
     color: #222 !important;
     padding: 4px;
     padding-bottom: 0 !important;
     margin: 0;
+    width: 100%;
+    height: 95vh;
+}
+
+.whatIDoTitle {
+    display: inline-block;
+    position: relative;
+    font-size: 21px;
+    margin: 0 auto;
+    margin-top: 16px;
+    font-weight: 750;
+    z-index: 1;
+    padding: 8px;
+    background-image: linear-gradient(to right, #7066ff, #7066ff 50%, #D50032 50%, #D50032);
+    background-size: 100% 3px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
 }
 
 .whatIDo p, .whatIDo h4{
     line-height: 2.1em !important;	
 }
 
-.column1, .column2 {
-    flex: 1;
-    padding: 20px;
-    margin-bottom: 0;
-    border: 0;
-    box-sizing: border-box;
+.accordion {
+    width: 60%;
+    margin: 0 auto;
+    color: #222;
+    background-color: white;
+    padding: 25px 25px;
+  }
+  
+  .accordion .container {
+    position: relative;
+    margin: 10px 10px;
+    
+    margin: 0 auto;
+    align-items: center;
+  }
+  
+  .accordion .label {
+    position: relative;
+    padding: 24px 16px 24px 0px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #3A3D40;
+    cursor: pointer;
+  }
+  
+  .accordion .label::before {
+    content: '+';
+    color: #D50032;
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    font-size: 1rem;
+    line-height: 1.2;
+    transform: translateY(-50%);
+    font-weight: 600;
+  }
+
+  .accordion .label:hover {
+    color: #D50032;
+  }
+  
+  .accordion .content {
+    position: relative;
+    background: white;
+    height: 0;
+    font-size: 1rem;
+    font-weight: 400;
     text-align: justify;
-    border: 0;
+    width: calc(100% - 20px);
+    overflow: hidden;
+    padding: 0 0 0 16px;
+    transition: 0.5s;
+    color: rgb(58, 61, 64);
+    border-bottom: 1px solid gray;
+  }
+  
+  .accordion .container.active .content {
+    height: 192px;
+  }
+  
+  .accordion .container.active .label::before {
+    content: '-';
+    color: #D50032;
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: 600;
   }
 
-  .column1 {
-    border-left: 1px solid #222;
-    }
-
-  .column2 {
-    border-left: 1px solid #222;
-    border-right: 1px solid #222;
-  }
 
 /*Footer Styles*/
 .footer {
