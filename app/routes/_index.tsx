@@ -1,57 +1,27 @@
+//Imports: Metadata HTML tags, CSS Styles and components to render the index view
 import type { MetaFunction } from "@remix-run/node";
 import '../styles/main.css'
-
-export const meta: MetaFunction = () => {
-  return [
-    { title: "Antariex DEV" },
-    { name: "Antariex", content: "Antariex <dev> portfollio and blog" },
-  ];
-};
-
 import Navbar from '../components/navbar';
+import Hero from "~/components/hero";
 import WhatIDo from "../components/whatIDo";
 import Footer from '../components/footer';
 
+//Export Metadata HTML for this view
+export const meta: MetaFunction = () => {
+  return [
+    { title: "Antariex DEV" },
+    { name: "Antariex", content: "Antariex <dev> portfolio and blog" },
+  ];
+};
+
+//Function to return the components to render the index view
 export default function Index() {
   return (
     <div>
       <Navbar />
-      <div className="indexHero">
-        <div>
-          <img src="./images/me.jpg" alt="Ariel Antequiera" className="me" />
-        </div>
-
-        <div>
-          <h4 className='title'>FullStack Web and Mobile Dev</h4>
-          <h1>Ariel Antequiera</h1>
-          <p>Hello! This website reflects my enthusiasm to grow as a professional in the software industry.
-            <br />
-            <br />
-            I have specialized in mobile and web development.</p>
-          <br />
-          <br />
-          <p className="moto">
-            Coding with 🤎 from Buenos Aires.
-          </p>
-          <br />
-          <br />
-          <a
-            target="_blank"
-            href="https://drive.google.com/file/d/1qYz9bXUvLhkQV86eknXdOezdswUxxrxC/view?usp=sharing"
-            rel="noreferrer">
-            <button className="button buttonBlue">Download CV</button>
-          </a>
-          <a
-            target="_blank"
-            href="mailto:arielantequiera@gmail.com"
-            rel="noreferrer">
-            <button className="button buttonWhite">Contact me</button>
-          </a>
-        </div>
-      </div>
-      <WhatIDo/>
+      <Hero />
+      <WhatIDo />
       <Footer />
     </div>
-
   );
 }
