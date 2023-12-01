@@ -4,6 +4,7 @@ import '../styles/main.css'
 import Navbar from '../components/navbar';
 import Hero from "~/components/hero";
 import WhatIDo from "../components/whatIDo";
+import Skills from "../components/skills";
 import Footer from '../components/footer';
 
 //Export Metadata HTML for this view
@@ -21,6 +22,7 @@ export default function Index() {
       <Navbar />
       <Hero />
       <WhatIDo />
+      <Skills />
       <Footer />
     </div>
   );
